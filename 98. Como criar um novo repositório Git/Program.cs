@@ -5,23 +5,24 @@
 DateTime date = DateTime.Now;
 int hour = date.Hour;
 
-if (hour <= 6)
+if (hour < 6)
 {
-    Console.WriteLine("Boa madrugada!");
+    Console.Write("Boa madrugada");
 }
-else if (hour <= 12)
+else if (hour < 12)
 {
-    Console.WriteLine("Bom dia!");
+    Console.Write("Bom dia");
 }
-else if (hour <= 18)
+else if (hour < 18)
 {
-    Console.WriteLine("Boa tarde!");
+    Console.Write("Boa tarde");
 }
 else
 {
-    Console.WriteLine("Boa noite!");
+    Console.Write("Boa noite");
 }
 
 #endregion
 
+Console.Write(", como você está? ");
 Console.ReadLine();
