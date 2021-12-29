@@ -25,4 +25,4 @@ else
 #endregion
 
 Console.Write(", como você está? ");
-Console.ReadLine();
+string condicao = Console.ReadLine();
