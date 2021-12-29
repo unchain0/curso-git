@@ -1,3 +1,4 @@
-﻿Console.WriteLine("Olá mundo!");
+﻿Console.WriteLine("Olá Mundo!");
+Console.WriteLine("Bom dia!");
 
 Console.ReadLine();
