@@ -24,5 +24,7 @@ else
 
 #endregion
 
+#region Condição
 Console.Write(", como você está? ");
 string condicao = Console.ReadLine();
+#endregion
