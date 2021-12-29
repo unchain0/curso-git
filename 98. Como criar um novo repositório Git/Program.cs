@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Olá Mundo!");
 
-#region GetHours
+#region Saudação
 
 DateTime date = DateTime.Now;
 int hour = date.Hour;
